@@ -1,0 +1,14 @@
+{
+  "LOGIN": {
+    "TITLE": "Iniciar Sesión",
+    "EMAIL_LABEL": "Correo Electrónico",
+    "PASSWORD_LABEL": "Contraseña",
+    "LOGIN_BUTTON": "Ingresar",
+    "REGISTER_LINK": "¿No tienes cuenta? Regístrate"
+  },
+  "REGISTER": {
+    "TITLE": "Registro",
+    "CREATE_ACCOUNT_BUTTON": "Crear Cuenta",
+    "LOGIN_LINK": "¿Ya tienes cuenta? Inicia Sesión"
+  }
+}

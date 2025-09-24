@@ -1,0 +1,14 @@
+{
+  "LOGIN": {
+    "TITLE": "Login",
+    "EMAIL_LABEL": "Email",
+    "PASSWORD_LABEL": "Password",
+    "LOGIN_BUTTON": "Sign In",
+    "REGISTER_LINK": "Don't have an account? Sign Up"
+  },
+  "REGISTER": {
+    "TITLE": "Sign Up",
+    "CREATE_ACCOUNT_BUTTON": "Create Account",
+    "LOGIN_LINK": "Already have an account? Login"
+  }
+}

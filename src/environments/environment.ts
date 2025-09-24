@@ -1,16 +1,18 @@
-// This file can be replaced during build by using the `fileReplacements` array.
-// `ng build` replaces `environment.ts` with `environment.prod.ts`.
-// The list of file replacements can be found in `angular.json`.
-
+// src/environments/environment.ts
 export const environment = {
-  production: false
-};
+  production: false,
+  firebaseConfig: {
+     apiKey: "AIzaSyCxhNLpBJRFYAe2_11lJuryZpDN6YK6--Q",
+  authDomain: "appgaleria-f22be.firebaseapp.com",
+  projectId: "appgaleria-f22be",
+  storageBucket: "appgaleria-f22be.firebasestorage.app",
+  messagingSenderId: "845631985991",
+  appId: "1:845631985991:web:9c94eb0e90d469772f5462"
+  //measurementId: "G-EMR3HW8KTM"
+  },
 
-/*
- * For easier debugging in development mode, you can import the following file
- * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
- *
- * This import should be commented out in production mode because it will have a negative impact
- * on performance if an error is thrown.
- */
-// import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
+  supabase: {
+    url: 'https://qjicmaaaytumsbbmbbso.supabase.co',
+    key: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFqaWNtYWFheXR1bXNiYm1iYnNvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTc4Mjc2MjUsImV4cCI6MjA3MzQwMzYyNX0.IquWOj3hUuGe0-8FNqrouRdtPPfSAQQtyt-poZmooLo' // Pega aquí tu clave anon public
+  }
+};
